@@ -14,7 +14,8 @@ var defaultOptions = {
   failoverTimeout     : 60000,
   requestTimeout      : null,
   maxRetries          : 2,
-  timePrecision       : 'ms'
+  timePrecision       : 'ms',
+  influxdbVersion     : '0.8'
 };
 
 var InfluxDB = function(options) {

@@ -67,6 +67,7 @@ host and disables the failed host for 60 seconds (timeout value is configurable)
 | requestTimeout [optional] | number of ms to wait before a request times out. defaults to 'null' (waits until connection is closed). Use with caution! |
 | maxRetries [options] | max number of retries until a request raises an error (e.g. 'no hosts available'), default : 2 |
 | timePrecision [optional] |Time precision, default : ms |
+| influxdbVersion [optional] | InfluxDB version('0.8' or '0.9'), default: '0.8' |
 
 
 ## Functions
